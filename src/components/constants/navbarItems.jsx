@@ -8,15 +8,15 @@ import DatasetIcon from '@mui/icons-material/Dataset';
 export const mainNavbarItems = [
     {
         id: 0,
-        icon: <AccountCircleIcon />,
-        label: 'Account',
-        route: 'account'
-    },
-    {
-        id: 1,
         icon: <AddHomeIcon />,
         label: 'Home',
         route: 'home'
+    },
+    {
+        id: 1,
+        icon: <AccountCircleIcon />,
+        label: 'Account',
+        route: 'account'
     },
     {
         id: 2,

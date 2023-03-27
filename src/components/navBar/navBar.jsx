@@ -39,7 +39,7 @@ const Navbar = () => {
             <ListItem 
                 button
                 key={item.id} 
-                onClick={() => Navigate(item.route)}
+                onClick={() => navigate(item.route)}
             >
                <ListItemIcon
                     button
